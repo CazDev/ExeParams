@@ -34,8 +34,8 @@
             this.txtParams = new System.Windows.Forms.TextBox();
             this.lblExe = new System.Windows.Forms.Label();
             this.lblParams = new System.Windows.Forms.Label();
-            this.chkCloseLaunch = new System.Windows.Forms.CheckBox();
             this.openFD = new System.Windows.Forms.OpenFileDialog();
+            this.chkClose = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnLaunch
@@ -98,24 +98,24 @@
             this.lblParams.TabIndex = 5;
             this.lblParams.Text = "Parammeters (Separated by spaces)";
             // 
-            // chkCloseLaunch
+            // chkClose
             // 
-            this.chkCloseLaunch.Checked = true;
-            this.chkCloseLaunch.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkCloseLaunch.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.chkCloseLaunch.Location = new System.Drawing.Point(46, 181);
-            this.chkCloseLaunch.Name = "chkCloseLaunch";
-            this.chkCloseLaunch.Size = new System.Drawing.Size(162, 45);
-            this.chkCloseLaunch.TabIndex = 6;
-            this.chkCloseLaunch.Text = "Close this window when launched";
-            this.chkCloseLaunch.UseVisualStyleBackColor = true;
+            this.chkClose.Checked = true;
+            this.chkClose.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkClose.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.chkClose.Location = new System.Drawing.Point(46, 181);
+            this.chkClose.Name = "chkClose";
+            this.chkClose.Size = new System.Drawing.Size(162, 45);
+            this.chkClose.TabIndex = 7;
+            this.chkClose.Text = "Close this window when launched";
+            this.chkClose.UseVisualStyleBackColor = true;
             // 
             // ExeParams
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(469, 271);
-            this.Controls.Add(this.chkCloseLaunch);
+            this.Controls.Add(this.chkClose);
             this.Controls.Add(this.lblParams);
             this.Controls.Add(this.lblExe);
             this.Controls.Add(this.txtParams);
@@ -139,8 +139,8 @@
         private System.Windows.Forms.TextBox txtParams;
         private System.Windows.Forms.Label lblExe;
         private System.Windows.Forms.Label lblParams;
-        private System.Windows.Forms.CheckBox chkCloseLaunch;
         private System.Windows.Forms.OpenFileDialog openFD;
+        private System.Windows.Forms.CheckBox chkClose;
     }
 }
 

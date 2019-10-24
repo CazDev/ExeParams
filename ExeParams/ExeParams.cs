@@ -30,8 +30,9 @@ namespace ExeParams
                 MessageBox.Show(ex.ToString());
             }
 
-            if (chkCloseLaunch.Checked)
+            if (chkClose.Checked)
             {
+                this.Close();
                 Environment.Exit(0);
             }
         }
