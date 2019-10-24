@@ -40,6 +40,7 @@
             // 
             // btnLaunch
             // 
+            this.btnLaunch.BackColor = System.Drawing.Color.White;
             this.btnLaunch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLaunch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLaunch.Location = new System.Drawing.Point(288, 179);
@@ -47,7 +48,7 @@
             this.btnLaunch.Size = new System.Drawing.Size(93, 45);
             this.btnLaunch.TabIndex = 0;
             this.btnLaunch.Text = "Launch";
-            this.btnLaunch.UseVisualStyleBackColor = true;
+            this.btnLaunch.UseVisualStyleBackColor = false;
             this.btnLaunch.Click += new System.EventHandler(this.btnLaunch_Click);
             // 
             // txtExe
@@ -60,6 +61,7 @@
             // 
             // btnFile
             // 
+            this.btnFile.BackColor = System.Drawing.Color.White;
             this.btnFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFile.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFile.Location = new System.Drawing.Point(387, 52);
@@ -67,7 +69,7 @@
             this.btnFile.Size = new System.Drawing.Size(32, 29);
             this.btnFile.TabIndex = 2;
             this.btnFile.Text = "...";
-            this.btnFile.UseVisualStyleBackColor = true;
+            this.btnFile.UseVisualStyleBackColor = false;
             this.btnFile.Click += new System.EventHandler(this.btnFile_Click);
             // 
             // txtParams
