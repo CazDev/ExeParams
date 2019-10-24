@@ -27,7 +27,7 @@ namespace ExeParams
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.Message);
             }
 
             if (chkClose.Checked)
@@ -46,10 +46,9 @@ namespace ExeParams
                     var sr = new StreamReader(openFD.FileName);
                     txtExe.Text = openFD.FileName;
                 }
-                catch (SecurityException ex)
+                catch (Exception ex)
                 {
-                    MessageBox.Show($"Security error.\n\nError message: {ex.Message}\n\n" +
-                    $"Details:\n\n{ex.StackTrace}");
+                    MessageBox.Show(ex.Message);
                 }
             }
         }
