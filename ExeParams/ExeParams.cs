@@ -18,12 +18,6 @@ namespace ExeParams
         {
             InitializeComponent();
         }
-        
-        static void Main(string[] args)
-        {
-            //Start process with arguments.
-            System.Diagnostics.Process.Start(args[0], args[1], args[2], args[3]);
-        }
 
         private void btnLaunch_Click(object sender, EventArgs e)
         {
